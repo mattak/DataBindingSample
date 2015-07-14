@@ -10,6 +10,9 @@ import android.view.ViewGroup;
 import me.mattak.databindingsample.databinding.FragmentSample1Binding;
 import me.mattak.databindingsample.entity.User;
 
+/**
+ * The sample for setting single text data.
+ */
 public class Sample1Fragment extends Fragment {
     public static Sample1Fragment getInstance() {
         return new Sample1Fragment();
